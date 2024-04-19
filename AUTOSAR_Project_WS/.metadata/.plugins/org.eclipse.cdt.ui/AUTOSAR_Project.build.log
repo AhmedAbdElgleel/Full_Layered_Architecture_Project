@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project AUTOSAR_Project ****
+
+"C:\\ti\\ccs1260\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'AUTOSAR_Project.out' is up to date.
+
+**** Build Finished ****

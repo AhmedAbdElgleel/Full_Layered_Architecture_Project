@@ -1,0 +1,13 @@
+ /******************************************************************************
+ *
+ * Module: GPT
+ *
+ * File Name: Gpt_PBcfg.c
+ *
+ * Description: Post Build Configuration Source file for TM4C123GH6PM Microcontroller - GPT Driver
+ *
+ * Author: Ahmed AbdElgleel
+ ******************************************************************************/
+
+#include "Gpt.h"
+

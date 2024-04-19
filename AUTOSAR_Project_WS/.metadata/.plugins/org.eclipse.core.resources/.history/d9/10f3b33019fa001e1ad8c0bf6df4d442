@@ -1,0 +1,22 @@
+ /******************************************************************************
+ *
+ * Module: Gpt
+ *
+ * File Name: Gpt_Private.h
+ *
+ * Description: Header file for TM4C123GH6PM Microcontroller - Gpt Driver Registers and Private Macros
+ *
+ * Author: Ahmed AbdElgleel
+ ******************************************************************************/
+
+#ifndef GPT_PRIVATE_H_
+#define GPT_PRIVATE_H_
+
+#define SYSTICK_PRIORITY_MASK  0x1FFFFFFF
+#define SYSTICK_INTERRUPT_PRIORITY  3
+#define SYSTICK_PRIORITY_BITS_POS   29
+
+
+
+
+#endif /* GPT_PRIVATE_H_ */

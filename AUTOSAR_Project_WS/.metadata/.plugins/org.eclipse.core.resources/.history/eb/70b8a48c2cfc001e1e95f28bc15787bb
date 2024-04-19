@@ -1,0 +1,24 @@
+ /******************************************************************************
+ *
+ * Module: Dio
+ *
+ * File Name: Dio_PBcfg.h
+ *
+ * Description: Post Build Configuration header file for TM4C123GH6PM Microcontroller - Dio Driver
+ *
+ * Author: Ahmed AbdElgleel
+ ******************************************************************************/
+#ifndef DIO_PBCFG_H_
+#define DIO_PBCFG_H_
+
+/*******************************************************************************
+ *                       External Variables                                    *
+ *******************************************************************************/
+
+/* Extern PB structures to be used by Dio and other modules */
+extern const Dio_ConfigType Dio_Configuration;
+
+
+
+
+#endif /* DIO_PBCFG_H_ */

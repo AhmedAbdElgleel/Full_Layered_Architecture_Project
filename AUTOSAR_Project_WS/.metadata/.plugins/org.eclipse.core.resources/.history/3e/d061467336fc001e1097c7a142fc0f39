@@ -1,0 +1,23 @@
+ /******************************************************************************
+ *
+ * Module: Port
+ *
+ * File Name: Port_PBcfg.h
+ *
+ * Description: Post Build Configuration header file for TM4C123GH6PM Microcontroller - Port Driver
+ *
+ * Author: Ahmed AbdElgleel
+ ******************************************************************************/
+
+#ifndef PORT_PBCFG_H_
+#define PORT_PBCFG_H_
+/*******************************************************************************
+ *                       External Variables                                    *
+ *******************************************************************************/
+
+/* Extern PB structures to be used by Port and other modules */
+extern const Port_ConfigType Port_Configuration;
+
+
+
+#endif /* PORT_PBCFG_H_ */

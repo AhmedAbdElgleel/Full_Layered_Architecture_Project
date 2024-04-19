@@ -1,0 +1,34 @@
+ /******************************************************************************
+ *
+ * Module: Gpt
+ *
+ * File Name: Gpt_IRQ.c
+ *
+ * Description: IRQ Sources file for TM4C123GH6PM Microcontroller - Gpt Driver
+ *
+ * Author: Ahmed AbdElgleel
+ ******************************************************************************/
+
+#include "Gpt.h"
+
+
+/************************************************************************************
+* Service Name: SysTick_Handler
+* Description: SysTick Timer ISR
+************************************************************************************/
+void SysTick_Handler(void)
+{
+  if(GptNotification[0] != NULL_PTR)
+  {
+    /*Call the funciton*/
+    GptNotification[0]();
+
+    /*Clear the flag*/
+    *(volatile uint32 *)((volatile uint8 *)GPTM_Ptr + GPT_GPTMICR_BASE_OFFSET) = Set_BIT;
+  }
+  else
+  {
+    /* Do Noting */
+  }
+
+}

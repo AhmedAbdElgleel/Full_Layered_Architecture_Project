@@ -1,0 +1,19 @@
+ /******************************************************************************
+ *
+ * Module: Dio
+ *
+ * File Name: Dio_Cfg.h
+ *
+ * Description: Pre-Compile Configuration Header file for TM4C123GH6PM Microcontroller - Dio Driver
+ *
+ * Author: Ahmed AbdElgleel
+ ******************************************************************************/
+
+#ifndef GPT_CFG_H_
+#define GPT_CFG_H_
+
+
+
+
+
+#endif /* GPT_CFG_H_ */
